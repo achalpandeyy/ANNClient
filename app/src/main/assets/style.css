@@ -1,0 +1,43 @@
+/*'*' selector targets all the elements in the html. Here we set each element the following properties.*/
+* {
+    color: #d3d3d3;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-style: normal;
+}
+
+img {
+    display: block;
+    height: auto;
+    max-width: 100%;
+    margin: 0 auto;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+iframe {
+    display: block;
+    height: auto;
+    max-width: 100%;
+}
+
+body {
+    background-color: #373737;
+}
+
+/*for using custom fonts add them to head of html*/
+p {
+    color: #d3d3d3;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-style: normal;
+}
+
+/*to edit hyperlinks*/
+a {
+    color: #ffffff;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    text-decoration: none;
+    font-style: normal;
+}
