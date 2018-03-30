@@ -98,7 +98,7 @@
                     android:layout_marginStart="16dp"
                     android:layout_marginTop="8dp"
                     android:ellipsize="end"
-                    android:fontFamily="montserrat"
+                    android:fontFamily="@font/montserrat"
                     android:maxLines="4"
                     tools:text="A-1 Pictures' romantic comedy premieres in April ― The official website for the television anime"/>
 
