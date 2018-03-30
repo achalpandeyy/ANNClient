@@ -10,7 +10,7 @@ import org.jsoup.select.Elements;
 class HtmlHelper {
 
     static String getHtmlContent(Document detailHtmlDoc) {
-        Elements contentElements = detailHtmlDoc.select(".meat");
+        Elements contentElements = detailHtmlDoc.select(".KonaBody");
         String htmlData = fixImageUrls(contentElements);
         htmlData = assembleHtml(htmlData);
         return htmlData;
